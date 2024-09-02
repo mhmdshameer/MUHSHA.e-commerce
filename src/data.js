@@ -1,31 +1,31 @@
 export const sliderItems = [
     {
         id: 1 ,
-        img:"/img/1.avif"  ,
+        img:"/img/1.png"  ,
         title:"Effortless Elegance",
         desc: " 30% OFFER!  This is what EXACTLY you've been waiting for!  " ,   
-        bg: "#FFC0CB",  
+        bg: "#FFE5B4",  
         },
     {
         id: 2 ,
-        img:"/img/2.avif"  ,
+        img:"/img/2.png"  ,
         title:"Fashion Forward",
         desc:  "Enjoy a 30% discount on our latest collection of modern women's clothing, perfect for elevating your style!  " ,  
-        bg: "#AFDBF5",    
+        bg: "#F0F0F0",    
         },
     {
         id: 3 ,
-        img:"/img/6.avif"  ,
+        img:"/img/3.png"  ,
         title:"Versatile & Stylish",
         desc: "Don't miss out on a 30% offer on chic and trendy outfits designed to make you stand out!" ,   
-        bg: "#D3D3D3",   
+        bg: "#FFFFE0",   
         } ,
     {
         id: 4 ,
-        img:"/img/4.avif"  ,
+        img:"/img/4.png"  ,
         title:"Sophisticated Charm",
         desc: "Don't miss out on a 30% offer on chic and trendy outfits designed to make you stand out!" ,   
-        bg: "#D3D3D3",   
+        bg: "#E0F7FA",   
         }     
 ]
 
