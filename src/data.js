@@ -42,7 +42,42 @@ export const categories = [
     },
     {
         id:1,
-        img: "/img/9.avif ",
+        img: "/img/9.avif",
         title: "LIGHT JACKETS" ,
     }
+]
+
+export const popularProducts = [
+    {
+        id: 1,
+        img:"/img/21.png ",
+    },
+    {
+        id: 2,  
+        img:"/img/22.png",
+    },
+    {
+        id: 3,
+        img:"/img/23.png",
+    },
+    {
+        id: 4,
+        img:"/img/24.png",
+    },
+    {
+        id: 5,
+        img:"/img/25.png",
+    },
+    {
+        id: 6,
+        img:"/img/26.png",
+    },
+    {
+        id: 7,
+        img:"/img/27.png",
+    },
+    {
+        id: 8,
+        img:"/img/28.png",
+    },
 ]
