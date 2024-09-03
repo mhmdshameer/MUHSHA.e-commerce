@@ -7,8 +7,8 @@ import Cart from "./pages/Cart";
 
 const App = () => {
     return <div> 
-    <Cart />
+    <Login />
     </div>
-}
+} 
 
 export default App;

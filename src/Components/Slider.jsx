@@ -3,6 +3,7 @@ import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import {sliderItems} from "../data.js";
 import  {useState} from "react"
+import {mobile} from "../responsive.js"
 
 
 const Container = styled.div `
@@ -12,6 +13,7 @@ const Container = styled.div `
   background-color: white;
   position: relative;
   overflow: hidden;  
+  ${mobile ({display:"none"})}
 ` 
 const Arrow = styled.div  `
    height: 50px;
@@ -48,6 +50,9 @@ const Slide = styled.div `
 const ImgContainer = styled.div `
  height: 100%;
   flex: 1;
+  display: flex;
+  align-items:center;
+  justify-content: center;
 `;
 const Image = styled.img `
    height: 80%;
