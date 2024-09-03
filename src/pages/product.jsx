@@ -66,6 +66,11 @@ const FilterColor = styled.div`
     background: ${props=> props.color};
     margin: 0px 3px;
     cursor: pointer;
+    transition: all 0.3 ease;
+
+    &:hover{
+        transform: scale(1.1);
+    }
 `;
 
 const FilterSize = styled.select`
