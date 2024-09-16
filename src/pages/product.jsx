@@ -151,6 +151,12 @@ const Product = () => {
 
     getProduct();
   }, [id]);
+  console.log(product)
+
+  const handleClick= ()=>{
+    //update cart........
+    
+  }
 
   return (
     <Container>
@@ -191,7 +197,7 @@ const Product = () => {
               <Quantity>{quantity}</Quantity>
               <Add onClick={() => handleQuantity("inc")} />
             </AmountContainer>
-            <Button>ADD TO CART</Button>
+            <Button onClick={handleClick}>ADD TO CART</Button>
           </AddContainer>
         </InfoContainer>
       </Wrapper>
