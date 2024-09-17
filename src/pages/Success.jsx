@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  background-color: #f0f8ff; /* Soft Blue background */
+  background-color: #d1e7dd; 
   font-family: "Raleway", sans-serif; 
   width: 100vw;
   height: 100vh;
@@ -11,7 +11,7 @@ const Container = styled.div`
 `;
 
 const SuccessCard = styled.div`
-  background-color: #faf3e0; /* Light Beige div */
+  background-color: #faf3e0;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05); /* Softer shadow */
@@ -26,7 +26,7 @@ const Logo = styled.img`
 `;
 
 const Successful = styled.h1`
-  color: #76c7c0; /* Soft Green for success message */
+  color: #2a5934; 
   font-family: "Poppins", sans-serif; /* Rounded, soft font for heading */
   font-size: 2.2em;
   margin-bottom: 20px;

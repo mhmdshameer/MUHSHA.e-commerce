@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 import Success from "./pages/Success";
 
 const App = () => {
-    const user = true;
+    const user = false;
   return (
     <Router>
       <Routes>
