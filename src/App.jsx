@@ -6,9 +6,11 @@ import Login from "./pages/Login";
 import Cart from "./pages/Cart";
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Success from "./pages/Success";
+import { useSelector } from "react-redux";
 
 const App = () => {
-    const user = false;
+    const user = useSelector((state)=>state.user.currentUser);
+    console.log(user);
   return (
     <Router>
       <Routes>
@@ -20,7 +22,7 @@ const App = () => {
         <Route path="/register" element={user ?  <Navigate to="/" />: <Register/>} />
         <Route path="/success" element={<Success />} />
 
-      </Routes> 
+      </Routes>     
     </Router>
   );
 };
